@@ -16,6 +16,7 @@
 		92F6D8861A7CA52600DB0163 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92F6D8851A7CA52600DB0163 /* Images.xcassets */; };
 		92F6D8891A7CA52600DB0163 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 92F6D8871A7CA52600DB0163 /* LaunchScreen.xib */; };
 		92F6D8951A7CA52600DB0163 /* ZappTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F6D8941A7CA52600DB0163 /* ZappTests.m */; };
+		92F6D9091A7CB2F000DB0163 /* GraphicsViewControllerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 92F6D9081A7CB2F000DB0163 /* GraphicsViewControllerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		92F6D88E1A7CA52600DB0163 /* ZappTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZappTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		92F6D8931A7CA52600DB0163 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92F6D8941A7CA52600DB0163 /* ZappTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZappTests.m; sourceTree = "<group>"; };
+		92F6D9071A7CB2F000DB0163 /* GraphicsViewControllerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsViewControllerView.h; sourceTree = "<group>"; };
+		92F6D9081A7CB2F000DB0163 /* GraphicsViewControllerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsViewControllerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +100,8 @@
 				92F6D8851A7CA52600DB0163 /* Images.xcassets */,
 				92F6D8871A7CA52600DB0163 /* LaunchScreen.xib */,
 				92F6D8731A7CA52600DB0163 /* Supporting Files */,
+				92F6D9071A7CB2F000DB0163 /* GraphicsViewControllerView.h */,
+				92F6D9081A7CB2F000DB0163 /* GraphicsViewControllerView.m */,
 			);
 			path = Zapp;
 			sourceTree = "<group>";
@@ -228,6 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92F6D9091A7CB2F000DB0163 /* GraphicsViewControllerView.m in Sources */,
 				92F6D8811A7CA52600DB0163 /* GameViewController.m in Sources */,
 				92F6D8791A7CA52600DB0163 /* AppDelegate.m in Sources */,
 				92F6D87C1A7CA52600DB0163 /* GameScene.m in Sources */,
@@ -424,6 +430,7 @@
 				92F6D89A1A7CA52600DB0163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92F6D89B1A7CA52600DB0163 /* Build configuration list for PBXNativeTarget "ZappTests" */ = {
 			isa = XCConfigurationList;
@@ -432,6 +439,7 @@
 				92F6D89D1A7CA52600DB0163 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
